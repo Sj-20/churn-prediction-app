@@ -1,23 +1,36 @@
-# Customer Churn Prediction App
+## Business Problem
 
-This project predicts customer churn using a machine learning model trained on the IBM Telco Customer Churn dataset.
+Customer churn is a major issue for subscription-based businesses. This project predicts whether a customer is likely to churn based on their demographic, service usage, billing, and contract information.
 
-## Features
+## Objective
 
-- Data preprocessing pipeline
-- Machine learning model using Scikit-learn
-- Churn probability prediction
-- Batch CSV upload
-- Streamlit web app
-- Downloadable prediction results
+The objective is to build a machine learning model that can predict churn probability and help business teams identify high-risk customers early.
 
-## Files
+## Dataset
 
-- `app.py` - Streamlit application
-- `requirements.txt` - Required Python libraries
-- `churn_prediction_pipeline.pkl` - Trained machine learning model
-- `model_metadata.json` - Model details and threshold
-- `sample_input.csv` - Sample input file for testing
+The project uses the IBM Telco Customer Churn dataset.
+
+## Machine Learning Pipeline
+
+- Data cleaning
+- Missing value handling
+- Numeric and categorical preprocessing
+- Model comparison
+- Threshold tuning
+- Model artifact saving
+- Streamlit deployment
+
+## Model Output
+
+The app predicts:
+
+- Churn probability
+- Churn / No Churn label
+- Downloadable prediction result
+
+## Business Use Case
+
+A retention team can use this app to prioritize customers who have a high probability of leaving and take proactive action, such as offering discounts, service upgrades, or personalized support.
 
 ## How to Run Locally
 
