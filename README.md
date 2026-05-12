@@ -1,3 +1,7 @@
+## Live Demo
+
+Try the deployed app here: https://hossain-churn-prediction-app.streamlit.app
+
 ## Business Problem
 
 Customer churn is a major issue for subscription-based businesses. This project predicts whether a customer is likely to churn based on their demographic, service usage, billing, and contract information.
