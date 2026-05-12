@@ -1,0 +1,52 @@
+{
+    "model_name": "Random Forest",
+    "target": "Churn",
+    "threshold": 0.5499999999999998,
+    "numeric_features": [
+        "SeniorCitizen",
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "categorical_features": [
+        "gender",
+        "Partner",
+        "Dependents",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod"
+    ],
+    "all_features": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "roc_auc": 0.8435518871580253,
+    "accuracy_default_threshold": 0.7551454932576295,
+    "f1_tuned_threshold": 0.6367816091954023
+}
