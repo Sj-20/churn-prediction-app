@@ -22,5 +22,6 @@ This project predicts customer churn using a machine learning model trained on t
 ## How to Run Locally
 
 
+```bash
 pip install -r requirements.txt
 streamlit run app.py
