@@ -1,3 +1,5 @@
+Due to confidentiality restrictions, this repository uses synthetic data that mirrors the structure and business logic of the original project. The methodology, preprocessing steps, feature engineering, and modeling approach are representative of the production project.
+
 ## Live Demo
 
 Try the deployed app here: https://hossain-churn-prediction-app.streamlit.app
